@@ -7,6 +7,18 @@ module.exports = {
   entry: {
     application: "./app/javascript/application.js"
   },
+  /*
+  entry: {
+    application: [
+      "./app/javascript/application.js",
+      "./app/javascript/Greeting.js",
+    ],
+  },
+  entry: [
+    './app/javascript/application.js',
+    './app/javascript/Greeting.js'
+  ],
+  */
   module: {
     rules: [
       {
