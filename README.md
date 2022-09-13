@@ -1,56 +1,62 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello Rails-React
 
-> Description the project.
+> This is a sample project where I created a basic rails API and a react app that consumes such API.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby, Javascript, HTML
+- Ruby on Rails, Reactjs
+- Git, Github, Webpack, js-bundling, rubocop, stylelint
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Getting Started!
 
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Node
+- NPM
+- Ruby
+- Rails
+- Rubocop
+- Ruby bundler
+- PostgreSQL
 
 ### Setup
-
+Open your terminal and:
+- Clone this repo
+  - run ```cd /path/where/you/want/to clone/```
+  - run ```git clone https://github.com/Trictonicmp/hello-rails-react```
+  - run ```cd hello-rails-react```
+  
 ### Install
+- Install dependencies
+  - run ```bundle install```
+  - run ```npm install```
+- Create database
+  - run ```rake db:create``` or ```rails db:create``` 
+  - run ```rake db:migrate``` or ```rails db:migrate```
+  - run ```rake db:seed``` or ```rails db:seed```
 
-### Usage
 
-### Run tests
-
-### Deployment
-
+### Run linters
+- run ```rubocop```
+- run ```npx stylelint "**/*.{css,scss}"```
 
 
 ## Authors
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Amaury Permer**
 
-👤 **Author2**
+- GitHub: [@Trictonicmp](https://github.com/Trictonicmp)
+- LinkedIn: [Amaury Permer](https://linkedin.com/in/amaury-permer)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 
 ## 🤝 Contributing
 
